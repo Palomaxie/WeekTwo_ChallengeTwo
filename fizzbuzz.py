@@ -1,0 +1,11 @@
+def fizzbuzz(list1, list2):
+
+    x = len(list1) + len(list2)
+    if x % 3 == 0:
+        return "Fizz"
+    elif x % 5 == 0:
+        return "Buzz"
+    elif x % 3 == 0 and x % 5 == 0:
+        return "FizzBuzz"
+    else:
+        return x
